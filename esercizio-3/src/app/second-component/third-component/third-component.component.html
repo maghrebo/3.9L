@@ -1,6 +1,6 @@
-<p>32</p>
-<mat-progress-bar mode="determinate" value="40"></mat-progress-bar>
+<p>{{like}}</p>
+<mat-progress-bar mode="determinate" value="{{like}}"></mat-progress-bar>
 <br>
-<button mat-fab aria-label="Example icon button with a heart icon" >
+<button color = "primary" mat-fab aria-label="Example icon button with a heart icon" (click) = aggiuntalike() [color] = cambiaColore() >
     <mat-icon>favorite</mat-icon>
 </button>

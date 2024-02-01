@@ -13,5 +13,26 @@ import {MatButtonModule} from '@angular/material/button';
 })
 
 export class ThirdComponentComponent {
-  
+  like = 0;
+
+  constructor() {
+    this.like =Math.floor(Math.random() * 100);
+    this.cambiaColore();
+  }
+
+  aggiuntalike() {
+    if (this.like < 100) {
+      this.like = this.like + 1
+    }
+  }
+
+  cambiaColore(): string {
+    if(this.like < 33){
+      return "primary";
+    }else if (this.like >= 33 && this.like < 66) {
+      return "accent";
+    }else{
+      return "warn";
+    }
+  }
 }
