@@ -11,7 +11,5 @@ import { SecondComponentComponent } from './second-component/second-component.co
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'esercizio-2';
-  text1 = "CIAO";
-  text2 = "COMPONENTE";
+ 
 }
