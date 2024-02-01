@@ -10,8 +10,7 @@ import { FourthComponentComponent } from './fourth-component/fourth-component.co
   styleUrl: './second-component.component.css'
 })
 export class SecondComponentComponent {
-  text1: string="The Rock Meme"
-  text2: string="E illustrato un meme di the rock"
-  text3: string="Hashbulla Meme"
-  text4: string="Illustrato un meme del babmbino adulto Hashbulla"
+
+  nomeMeme= ["The Rock Meme", "Hashbulla Meme"]
+  descrizioneMeme= ["E illustrato un meme di the rock", "Illustrato un meme del babmbino adulto Hashbulla"]
 }
